@@ -39,6 +39,8 @@ img {
     border: none;
     margin-top: 10px;
     font-family:"Iansui", cursive;
+    width: 90%;
+    height: 20px;
 }
 
 .container_temperatura i {
