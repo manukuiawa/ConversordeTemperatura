@@ -22,19 +22,53 @@ img {
     height: auto;
 }
 
-.container_inputTemperatura {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container_temperatura {
+    width: 20%;
+    height: 50px;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 3px solid #ed5418;
+    box-sizing: border-box;
 }
 
-.input-wrapper {
-    padding: 8px 12px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
+.container_temperatura input {
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    font-family:"Iansui", cursive;
 }
 
+.container_temperatura i {
+    color: #ce8a15;
+}
 
+.button_converter {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 20%;
+    height: 30px;
+    font-family: "Iansui", cursive;
+    background-color: #ed5418;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.texto-detalhes {
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-family:  "Iansui", cursive;
+    font-size: 12px;
+}
+
+.texto-detalhes i {
+    color: #ce8a15;
+}
 
