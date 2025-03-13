@@ -52,7 +52,7 @@ img {
     margin-top: 8px;
 }
 
-.button_converter {
+#button_converter {
     display: block;
     margin: 15px auto 0; /*deixa centralizado*/
     width: 100%;
@@ -67,7 +67,7 @@ img {
     cursor: pointer;
 }
 
-.button_converter:hover {
+button_converter:hover {
     background-color: #ce8a15;
 }
 
@@ -105,7 +105,7 @@ img {
 
     .button_converter {
         width: 90%;
-        max-width: 350px;
+        max-width: 340px;
         font-size: 14px;
     }
 
